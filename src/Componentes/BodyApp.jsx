@@ -15,7 +15,7 @@ import CardDetail from "./CardDetail";
 import ButtomBack from "./ButtomBack";
 import { modeColors } from "../styles/ModeColors";
 
-const url = "http://localhost:4000/datos";
+const url = "https://api-fake-data.vercel.app/datos";
 
 const BodyApp = () => {
   const [dataCountries, setDataCountries] = useState([]);
